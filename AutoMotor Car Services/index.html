@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO MOTIVE | CAR SERVICES - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>AUTO MOTIVE CAR SERVICES</h1>
+        <p>New & Used Vehicles</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="vehicles.html">Vehicles for Sale</a> |
+            <a href="finance.html">Finance</a> |
+            <a href="test-drive.html">Book a Test Drive</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="reviews.html">Customer Reviews</a> |
+            <a href="contact.html">Contact Us</a> |
+            <a href="cart.html">My Cart</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+
+        <section id="home">
+
+            <h2>Welcome to Auto Motive Car Services</h2>
+
+            <p>
+                Welcome to Auto Motive, your trusted car Services for quality
+                new and used vehicles. Browse our available vehicles, compare
+                prices, learn about our finance options and contact our sales
+                representatives online.
+            </p>
+
+            <p>
+                Our goal is to make finding your next vehicle easier, faster
+                and more convenient.
+            </p>
+
+            <h3>Featured Vehicles</h3>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+
+                <tr>
+                    <th>Vehicle</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Details</th>
+                </tr>
+
+                <tr>
+                    <td>Toyota Corolla <sup><a href="references.html#vehicle-sources">[1]</a></sup></td>
+                    <td>
+                        <img src="toyota corolla.jpg"
+                             alt="Toyota Corolla"
+                             width="250">
+                    </td>
+                    <td>R249,999</td>
+                    <td>
+                        <a href="vehicles.html">View Details</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Volkswagen Polo GTI <sup><a href="references.html#vehicle-sources">[2]</a></sup></td>
+                    <td>
+                        <img src="POLO GTI.jpg"
+                             alt="Volkswagen Polo GTI"
+                             width="250">
+                    </td>
+                    <td>R299,999</td>
+                    <td>
+                        <a href="vehicles.html">View Details</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>BMW 3 Series <sup><a href="references.html#vehicle-sources">[3]</a></sup></td>
+                    <td>
+                        <img src="M3 BMW.jpg"
+                             alt="BMW 3 Series"
+                             width="250">
+                    </td>
+                    <td>R449,999</td>
+                    <td>
+                        <a href="vehicles.html">View Details</a>
+                    </td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+
+        <section id="search">
+
+            <h2>Search Vehicles</h2>
+
+            <form>
+
+                <label for="searchVehicle">
+                    Search for a vehicle:
+                </label>
+
+                <input type="search"
+                       id="searchVehicle"
+                       name="searchVehicle"
+                       placeholder="Enter vehicle name">
+
+                <br><br>
+
+                <label for="vehicleType">
+                    Vehicle Type:
+                </label>
+
+                <select id="vehicleType" name="vehicleType">
+
+                    <option value="">Select Type</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="hatchback">Hatchback</option>
+                    <option value="bakkie">Bakkie</option>
+                    <option value="coupe">Coupe</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="price">
+                    Maximum Price:
+                </label>
+
+                <select id="price" name="price">
+
+                    <option value="">Select Price</option>
+                    <option value="200000">Under R200,000</option>
+                    <option value="300000">Under R300,000</option>
+                    <option value="400000">Under R400,000</option>
+                    <option value="500000">Under R500,000</option>
+                    <option value="1000000">Over R500,000</option>
+
+                </select>
+
+                <br><br>
+
+                <input type="submit" value="Search Vehicles">
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <section id="comparison">
+
+            <h2>Compare Vehicles</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+
+                <tr>
+                    <th>Specification</th>
+                    <th>Toyota Corolla <sup><a href="references.html#vehicle-sources">[1]</a></sup></th>
+                    <th>Volkswagen Polo GTI <sup><a href="references.html#vehicle-sources">[2]</a></sup></th>
+                    <th>BMW 3 Series <sup><a href="references.html#vehicle-sources">[3]</a></sup></th>
+                </tr>
+
+                <tr>
+                    <td>Price</td>
+                    <td>R249,999</td>
+                    <td>R299,999</td>
+                    <td>R449,999</td>
+                </tr>
+
+                <tr>
+                    <td>Year</td>
+                    <td>2024</td>
+                    <td>2023</td>
+                    <td>1993</td>
+                </tr>
+
+                <tr>
+                    <td>Transmission</td>
+                    <td>Automatic</td>
+                    <td>Automatic</td>
+                    <td>Manual</td>
+                </tr>
+
+                <tr>
+                    <td>Fuel</td>
+                    <td>Petrol</td>
+                    <td>Petrol</td>
+                    <td>Petrol</td>
+                </tr>
+
+                <tr>
+                    <td>Mileage</td>
+                    <td>25,000 km</td>
+                    <td>30,000 km</td>
+                    <td>18,000 km</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <hr>
+
+        <h3>Auto Motive Car Services</h3>
+
+        <p>
+            Quality New & Used Vehicles
+        </p>
+
+        <p>
+            Phone: 012 345 6789
+        </p>
+
+        <p>
+            Email: sales@automotivecarservices.co.za
+        </p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="vehicles.html">Vehicles</a> |
+            <a href="finance.html">Finance</a> |
+            <a href="test-drive.html">Test Drive</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="reviews.html">Reviews</a> |
+            <a href="contact.html">Contact</a>
+            | <a href="cart.html">My Cart</a> |
+            <a href="references.html">References</a>
+        </nav>
+
+        <p>
+            &copy; 2026 Auto Motive Car Services. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
